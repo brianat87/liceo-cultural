@@ -1,0 +1,36 @@
+.elementoPadre{
+    width: 800px;
+    margin: auto;
+    background-color: brown;
+    padding: 32px;
+    display: flex;
+    /* Los valores mas utilizados para justify-content son: center, space-between, y space-around */
+    /* Alinea los elementos de forma horizontal. */
+    justify-content: space-between;
+    /* Los valores mas utilizados son: center.*/
+    /* Alinea los elementos de forma vertical */
+    align-items: center;
+    margin-bottom: 64px;
+
+}
+
+.elementoHijo{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    margin: 16px 0;
+}
+
+
+.contenedorPadre{
+    width: 800px;
+    margin: auto;
+    background-color: brown;
+    padding: 32px;
+    list-style: none;
+    display: flex;
+}
+
+.contenedorPadre li{
+    margin-right: 16px;
+}
