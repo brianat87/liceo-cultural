@@ -140,6 +140,18 @@ header .logo a span{
     background-color: #edf4f6;
     border-radius: 15px;
 }
+.seccion-cursos .fila .columna .curso-encabezado{
+    position: relative;
+}
+.seccion-cursos .fila .curso-encabezado .curso-precio{
+    top: 5%;
+    left: 5%;
+    position: absolute;
+    background: #d82a4e;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.4rem 0.5rem;
+}
 .seccion-cursos .fila .columna img{
     width: 100%;
     border-radius: 5px 5px 0px 0px;
