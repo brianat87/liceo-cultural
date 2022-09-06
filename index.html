@@ -4,78 +4,160 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--google fonts-->
+
+    <!-- FUENTES DE GOOGLE -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Roboto&display=swap" rel="stylesheet">
-    <!--estilo css-->
-    <link rel="stylesheet" href="css/estilos.css">
-    <title>Mi primer sitio web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- ESTILOS PERSONALIZADOS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Liceo Cultural</title>
 </head>
 <body>
-    <!-- CABECERA -->
-    <header>
-        <div class="contenedor">
-            <img src="img/catedralnd.jpg" alt="logo del sitio">
+    <section class="seccion-bienvenida">
+        <!-- ENCABEZADO -->
+        <header>
+            <div class="contenedor">
+                <div class="logo">
+                    <a href="index.html">Liceo <br> <span class="texto-resaltado">Cultural</span></a>
+                </div>
+                
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Cursos</a></li>
+                        <li><a href="#">Noticias</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- FIN ENCABEZADO -->
 
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="">Servicios</a></li>
-                    <li><a href="">Nosotros</a></li>
-                    <li><a href="">Contactos</a></li>
-                </ul>
-            </nav>
+        <div class="mensaje-bienvenida">
+            <h1>Accede a los mejores cursos online</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, cumque esse nisi dicta non molestias! Quam assumenda nulla cum veritatis.</p>
+            <a href="#" class="btn-login">Ingresar</a>
         </div>
-    </header>
-        
-        
-    <!-- FIN CABECERA -->
 
-    <main>
-        <!-- SECCION BIENVENIDA-->
-        <section class="seccion-bienvenida">
+    </section>
+    
+    <!--CONTENIDO PRINCIPAL-->
+    <main class="contenido-principal">
+        <!--IDIOMAS-->
+        <section class="seccion-idioma">
             <div class="contenedor">
-                <h1 class="texto-centrado">Bienvenidos a nuestra empresa</h1>
-                <p class="texto-centrado">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid quidem eius ea dignissimos doloribus pariatur.</p>
-                <a href="">saber mas</a> 
+                <h2 class="titulo-seccion">Cursos: Idiomas</h2>
+                <p class="subtitulo-seccion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus facere hic ex maiores reprehenderit inventore delectus consequuntur quam, mollitia odio?</p>
+                <div class="fila">
+                    <div class="columna">
+                        <img src="img/Reino-Unido-Bandera-Europa.png">
+                        <div class="idioma-contenido">
+                            <h4>Ingles</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <span>Niveles</span>
+                        </div>
+                    </div>
+                    <div class="columna">
+                        <img src="img/Brasil-Bandera-America.png">
+                        <div class="idioma-contenido">
+                            <h4>Portugues</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <span>Niveles</span>
+                        </div>
+                    </div>
+                    <div class="columna">
+                        <img src="img/Francia-Bandera-Europa.png">
+                        <div class="idioma-contenido">
+                            <h4>Frances</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <span>Niveles</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--CURSOS-->
+        <section class="seccion-cursos">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Nuestros Cursos</h2>
+                <p class="subtitulo-seccion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus facere hic ex maiores reprehenderit inventore delectus consequuntur quam, mollitia.</p>
+
+                <div class="fila">
+                    <div class="columna">
+                        <div class="curso-encabezado">
+                            <img src="img/Reino-Unido-Bandera-Europa.png">
+                            <span class="curso-precio">$50</span>
+
+                        </div>
+                        
+                        <div class="curso-contenido">
+                            <h4>Ingles</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <span>Horarios</span>
+                        </div>
+                        <div class="curso-profesor">
+                            <img src="img/pexels-daniel-xavier-1239291.jpg" alt="">
+                            <p>
+                                William Parker, <span>Docente</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="columna">
+                        <img src="img/Brasil-Bandera-America.png">
+                        <div class="curso-contenido">
+                            <h4>Portugues</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <span>Horarios</span>
+                        </div>
+                        <div class="curso-profesor">
+                            <img src="img/pexels-david-garrison-2128818.jpg" alt="">
+                            <p>
+                                William Parker, <span>Docente</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="columna">
+                        <img src="img/Francia-Bandera-Europa.png">
+                        <div class="curso-contenido">
+                            <h4>Frances</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <span>Horarios</span>
+                        </div>
+                        <div class="curso-profesor">
+                            <img src="img/pexels-hamed-gharaee-2117283.jpg" alt="">
+                            <p>
+                                William Parker, <span>Docente</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="columna">
+                        <img src="img/Italia-Bandera-Europa.png">
+                        <div class="curso-contenido">
+                            <h4>Italiano</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <span>Horarios</span>
+                        </div>
+                        <div class="curso-profesor">
+                            <img src="img/pexels-justin-shaifer-1222271.jpg" alt="">
+                            <p>
+                                William Parker, <span>Docente</span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
         </section>
-        <!-- FIN SECCION BIENVENIDA-->
-
-        <section class="seccion-productos">
-            <div class="contenedor">
-                <h2 class="texto-centrado">Nuestros productos</h2>
-            <div>
-                <img src="img/catedralnd.jpg" alt="">
-                <h3>producto 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quaerat.</p>
-                <a href="">comprar</a>
-            </div>
-            <div>
-                <img src="img/catedralnd.jpg" alt="">
-                <h3>producto 2</h3>
-                <p>Lorem ipsum dolor sit amet adipisicing elit. Delectus, quaerat.</p>
-                <a href="">comprar</a>
-            </div> 
-            <div>
-                <img src="img/catedralnd.jpg" alt="">
-                <h3>producto 3</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quaerat.</p>
-                <a href="">comprar</a>
-            </div>
-
-            </div>
-            
-        </section>
-
-
-
     </main>
 
-    <footer>
-        <p>copyright © 2022</p>
-    </footer>
 </body>
 </html>
