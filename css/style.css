@@ -130,6 +130,7 @@ header .logo a span{
 
 .seccion-cursos{
     margin-top: 3rem;
+    padding-bottom: 20px;
 }
 .seccion-cursos .fila{
     display: flex;
@@ -197,4 +198,48 @@ header .logo a span{
     color:#d82a4e;
     font-weight: 700;
 }
+/* SECCION FORMULARIO*/
+
+.seccion-formulario{
+    padding: 48px 0;
+    background-color: #d82a4e;
+}
+.seccion-formulario .fila .columna{
+    width: 47%;
+
+}
+.seccion-formulario .fila .columna h2, .seccion-formulario .fila .columna p{
+    color: #fff;
+    margin-bottom: 32px;
+}
+.seccion-formulario form{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+.seccion-formulario form input, .seccion-formulario form textarea{
+    margin-bottom: 26px;
+    padding: 12px;
+    border: 0;
+    background-color: #edf4f6;
+}
+.seccion-formulario form label{
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+.seccion-formulario form button{
+    border: 0;
+    background-color: #d82a4e;
+    color: white;
+    max-width: 170px;
+    padding: 12px 0;
+    font-weight: 700;
+    font-size: 14px
+}
+.seccion-formulario form button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 
