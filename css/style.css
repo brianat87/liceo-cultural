@@ -275,13 +275,105 @@ footer .columna h4{
     margin-bottom: 0.5rem;
 }
 footer .contacto{
-    border-right: 1px solid #fff;
+    border-right: 1px solid #d82b4e;
 }
 footer .copyright p{
     color:#fff;
     text-align: center;
 }
 footer .redes{
-    border-left: 1px solid #fff;
+    border-left: 1px solid #d82a4e;
+}
+
+footer hr{
+    display: none;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width:767px){
+    header .contenedor{
+        flex-wrap: wrap;
+    }
+    header nav{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    header .nav-menu{
+        font-size: 14px;
+    }
+    .seccion-bienvenida .mensaje-bienvenida{
+        margin-top: 4rem;
+    }
+    .seccion-bienvenida .mensaje-bienvenida h1{
+        font-size: 45px;
+    }
+    .seccion-bienvenida .mensaje-bienvenida p{
+        display:none;
+    }
+    .titulo-seccion{
+        font-size: 32px;
+    }
+    .seccion-idioma .fila{
+        flex-wrap: wrap;
+    }
+    .seccion-idioma .fila .columna{
+        width: 100%;
+        margin: 2rem 0;
+    }
+    .seccion-cursos .fila{
+        flex-wrap: wrap;
+    }
+    .seccion-cursos .fila .columna{
+        width: 100%;
+        margin: 2rem 0;
+    }
+    .seccion-formulario .contenedor-img{
+        display:none;
+    }
+    .seccion-formulario .fila .columna{
+        width: 100%;
+    }
+    .seccion-formulario .fila .columna p{
+        text-align: center;
+    }
+    footer .fila{
+        flex-wrap: wrap;
+    }
+    footer .fila .columna{
+        width: 100%;
+        margin:1rem 0;
+        border: 0;
+    }
+    footer hr{
+        width: 100px;
+        margin: auto;
+        border: 1px solid #d82a4e;
+    }
+    footer .copyright{
+        order: 1;
+    }
+
+
+}
+/* MEDIA QUERY PARA TABLET */
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    .seccion-bienvenida .mensaje-bienvenida{
+        margin-top: 4rem;
+    }
+    .seccion-cursos .fila{
+        flex-wrap: wrap;
+    }
+    .seccion-cursos .fila .columna{
+        width: 48%;
+        margin-bottom: 15px;
+    }
+    .seccion-formulario .contenedor-img{
+        display:none;
+    }
+    .seccion-formulario .fila .columna{
+        width: auto;
+    }
 }
 
